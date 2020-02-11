@@ -7,7 +7,7 @@ export interface Tag {
 }
 
 @Component({
-  selector: 'app-tag',
+  selector: 'tag-component',
   templateUrl: './tag.component.html',
   styleUrls: ['./tag.component.css']
 })

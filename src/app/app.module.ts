@@ -15,6 +15,7 @@ import { BlogDetailsComponent } from './blog-details/blog-details.component';
 import { AlertDialogBodyComponent } from './alert-dialog-body/alert-dialog-body.component';
 import { DialogBodyComponent } from './dialog-body/dialog-body.component';
 import { TagComponent } from './material-components/tag/tag.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,9 @@ import { TagComponent } from './material-components/tag/tag.component';
     BrowserModule,
     MaterialModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
