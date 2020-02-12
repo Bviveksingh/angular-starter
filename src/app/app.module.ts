@@ -40,6 +40,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
   providers: [],
+  entryComponents:[DialogBodyComponent,AlertDialogBodyComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -6,7 +6,7 @@
         <h3 id="title">{{blog_props.title}}</h3> <h4 id="date">{{blog_props.created_at | date}}</h4>
     </div>
     <div class="blog-details-content">
-        <p [innerHTML]="blog_props.content|sanitizeHtml"></p>
+        <p [innerHTML]="blog_props.content"></p>
     </div>
 </div>
 

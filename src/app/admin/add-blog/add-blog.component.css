@@ -8,7 +8,6 @@
 
 .add-blog-main-form{
     grid-area:main-form;
-    /* border:1px solid black; */
     display: flex;
     flex-direction: column;
     padding:30px 20px;
@@ -27,7 +26,6 @@
 
 .add-blog-additional-form{
     grid-area:additional-form;
-    /* border:1px solid black; */
     padding:10px 20px;
     background-color: #f5f5f5;
 }
